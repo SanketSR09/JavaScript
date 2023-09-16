@@ -72,3 +72,19 @@ let compare=(a,b)=>{
 }
 n.sort(compare)
 console.log(n)
+
+"REverse Method"
+num.reverse();
+console.log(num)
+
+"Splice and Slice"
+
+// let nu=[551,22,3,14,5,6,7,8,299]
+let nu=[1,2,3,4]
+let d=nu.splice(2,2,5,6); //2-> Starting index, 2->2 numbers to be replaced including 2nd index and 5,6 will be added into that index
+console.log(nu) // o/p -> 1,2,5,6
+console.log(d)
+
+"Slice method"
+let s= nu.slice(2)
+console.log(s)
